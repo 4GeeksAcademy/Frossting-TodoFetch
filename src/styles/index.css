@@ -1,23 +1,31 @@
 .container {
-    margin-top: 80px;
-    background-color: rgba(62, 85, 9, 0.222);
-    border: 2px solid black;
+    background: bisque;
     display: flex;
     justify-content: center;
+
 }
 .title {
     display: flex;
     justify-content: center;
-    background: #abb31591;
     color: black;
     margin: 50px;
-    border: 2px solid black;
+    text-decoration-line: underline;
+    text-decoration-color: black;  
+    text-shadow: 0 0 3px #ff6600;
 }
 #app {
-    background: darkolivegreen;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: bisque;
 }
 .tasks {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    justify-content: center;
 }

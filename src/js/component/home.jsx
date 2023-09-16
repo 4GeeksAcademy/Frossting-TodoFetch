@@ -102,6 +102,7 @@ function Home() {
 						value={task.label}
 						onChange={e => taskChange(e)}
 						onKeyUp={e => handleAddTask(e)}
+						style={{ border: 'rounded', background: 'orange', padding: 0, cursor: 'pointer' }}
 					/>
 				</div>
 				<ul className="list-group col-12 p-0">

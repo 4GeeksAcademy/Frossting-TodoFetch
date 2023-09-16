@@ -91,8 +91,10 @@ function Home() {
 	return (
 		<div className="container">
 			<div className="row">
-				<h1 className="title">Todo List</h1>
-				<div className='col-12 p-0'>
+				<div className='title'>
+					<h1>Todo List</h1>
+				</div>
+				<div className="tasks col-12 p-0">
 					<input
 						type="text"
 						className="form-control"

@@ -2,11 +2,22 @@
     margin-top: 80px;
     background-color: rgba(62, 85, 9, 0.222);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
 }
 .title {
+    display: flex;
+    justify-content: center;
     background: #abb31591;
-    color: black);
+    color: black;
+    margin: 50px;
+    border: 2px solid black;
 }
 #app {
     background: darkolivegreen;
+}
+.tasks {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
